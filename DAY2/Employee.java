@@ -43,6 +43,9 @@ public class Employee {
 
         //Display
         System.out.println(id +" " + name +" "+  sal);
+
+        //Scanner cloe
+        sc.close();
  }
 }
     
