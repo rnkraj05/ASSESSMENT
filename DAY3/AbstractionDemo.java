@@ -51,8 +51,17 @@ public class AbstractionDemo {
 }
 
 /*
-Observations: 
-1. Abstraction allows us to hide the implementations details and show only the functionality to the user.
-2. In the above example, the Animal class is an abstract class that defines 
-3. The Dog and Bird
+Observations :
+1)Abstraction allows us to hide the implementation details and show only the functionality to the user.
+2)In the above example, the Animal class is an abstract class that defines an abstract method makeSound() and a concrete method sleep().
+3) The Dog and Bird classes extend the Animal class and provide their own implementations of the makeSound() method. 
+When we create objects of the Dog and Bird classes and call their methods, we can see how abstraction works in Java.
+
+Developer use case based on abstraction using abstract classes( is a relationship) :
+scenario 1: We are developing a software for a zoo management system. 
+We can create an abstract class called "Animal" that defines common properties and 
+behaviors of all animals, such as eat(), sleep(), and makeSound(). 
+Then, we can create specific classes like "Lion", "Elephant", and "Monkey" 
+that extend the Animal class and provide their own implementations of the makeSound() method. 
+This way, we can manage different types of animals in the zoo while keeping the common functionalities abstracted in the Animal class.
 */
